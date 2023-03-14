@@ -148,64 +148,7 @@ class ContributionPlanBundleContributionPlans extends PagedDataHandler {
         const { classes, edited, contributionPlanBundleId } = this.props;
         return (
             <Fragment>
-                 <style>
-         {
-          `
-          .MuiFormControl-root .MuiInputBase-input {
-            /* padding: 6px 0 15px; */
-            padding: 20px;
-            border: 1px solid red;
-        }
-
-        .MuiFormControl-root .MuiInputLabel-formControl {
-          font-size: 14px;
-          color: #1f272e;
-          margin-top: 12px;
-          margin-left: 27px;
-      }
-
-   
-
- 
-     .MuiInputLabel-shrink {
-        transform: translate(0, -19px) scale(0.75);
-        transform-origin: top left;
-    }
- 
-  .MuiAutocomplete-inputRoot[class*="MuiInput-root"] .MuiAutocomplete-input:first-child {
-    padding: 19px 9px;
-}
-.MuiFormControl-root .MuiInput-underline:before {
-  display:none;
-}
-.MuiFormControl-root .MuiInput-underline:after {
-  display:none;
-}
-
-.MuiInputBase-inputMultiline {
-  height: auto;
-  resize: none;
-  padding: 0;
-  margin-top: -10px;
-}
-
-input[type=file] {
-  display: block;
-  margin-left: 20px;
-}
-
-
-svg:not(:root) {
-  overflow: hidden;
-  height: 34px;
-  font-size: 22px;
-}
-
-
-
-          `
-         }
-        </style>
+          
                 <Grid item xs={8}>
                     {isNew && (
                         <Grid item className={classes.item}>

@@ -1,7 +1,7 @@
 {
-    "contributionPlan.contributionPlans.page.title": "Contribution Plans",
+    "contributionPlan.contributionPlans.page.title": "Premium Scheme",
     "contributionPlan.contributionPlans.searcher.results.title": "{contributionPlansTotalCount} Contribution Plans Found",
-    "contributionPlan.contributionPlanBundles.page.title": "Contribution Plan Bundles",
+    "contributionPlan.contributionPlanBundles.page.title": "Premium Scheme Bundles",
     "contributionPlan.contributionPlanBundles.searcher.results.title": "{contributionPlanBundlesTotalCount} Contribution Plan Bundles Found",
     "contributionPlan.code": "Code",
     "contributionPlan.name": "Name",

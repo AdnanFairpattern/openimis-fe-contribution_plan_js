@@ -58,7 +58,6 @@ class ContributionPlanBundleFilter extends Component {
             }
         ])
     }
-
     _onChangeDateFilter = (k, v, lookup) => {
         this.props.onChangeFilters([
             {
